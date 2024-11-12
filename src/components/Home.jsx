@@ -14,7 +14,8 @@ function Home() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 lg:mx-24 ">
                     <CircleImageWithTextCard
                         src={"https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg"}
-                        headerText={"We're efficient."} />
+                        headerText={"We're efficient."}
+                         />
                         <CircleImageWithTextCard
                         src={"https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg"}
                         headerText={"We're far-reaching."}/>

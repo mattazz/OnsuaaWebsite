@@ -24,9 +24,10 @@ function AboutUs() {
 
 
             <div className="flex space-x-14 justify-center align-middle m-auto w-3/4 ">
-                <CircleImage src="https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg" />
-                <CircleImage src="https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg" />
-                <CircleImage src="https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg" />
+                <CircleImage src="https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg" width={128} height={128} />
+                <CircleImage src="https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg" width={128} height={128} />
+                <CircleImage src="https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg" width={128} height={128} />
+
 
             </div>
 

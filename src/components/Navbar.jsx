@@ -57,8 +57,12 @@ function Navbar() {
                             animate="visible"
                             exit="exit"
                             variants={menuVariants}
-                            className="flex flex-col lg:flex-row lg:items-center lg:space-x-4 w-full lg:w-auto"
+                            className={`flex flex-col lg:flex-row lg:items-center lg:space-x-4 w-full lg:w-auto ${isOpen ? 'no-pointer-events' : ''}`}
                             onClick={toggleDropdown}
+                            onAnimationComplete={() => {
+                                // Remove pointer class
+                                document.querySelector('.no-pointer-events').classList.remove('no-pointer-events');
+                            }}
                         >
                             <NavItemLink linkTo="/" linkText="Home" itemVariants={itemVariants} isOpen={isOpen} />
                             <NavItemLink linkTo="/about" linkText="About" itemVariants={itemVariants} isOpen={isOpen}/>

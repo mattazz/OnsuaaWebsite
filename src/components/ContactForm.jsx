@@ -4,7 +4,6 @@ function ContactForm() {
 
     const [formData, setFormData] = useState({
         fullName: "",
-        email: "",
         subject: "",
         message: ""
     })
@@ -21,7 +20,16 @@ function ContactForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formData);
+        document.getElementById("noticeMessage").innerText = "";
+
+        // validate data first
+        if (!formData.fullName || !formData.subject || !formData.message) {
+            document.getElementById("noticeMessage").innerText = "Please fill in all fields";
+            return;
+        }
+
+
+
         const mailtoLink = `mailto: test@example.com?subject=${formData.subject}&body=${formData.message}`;
         window.location.href = mailtoLink;
     }
@@ -34,14 +42,6 @@ function ContactForm() {
                 name="fullName"
                 placeholder="Full Name"
                 value={formData.fullName}
-                onChange={handleChange}
-                className="p-2 border border-gray-300 rounded"
-            />
-            <input
-                type="email"
-                name="email"
-                placeholder="Email"
-                value={formData.email}
                 onChange={handleChange}
                 className="p-2 border border-gray-300 rounded"
             />
@@ -61,6 +61,7 @@ function ContactForm() {
                 className="p-2 border border-gray-300 rounded h-32"
             />
             <button type="submit" className="p-2 bg-red-600 text-white rounded">E-Mail Us</button>
+            <p id="noticeMessage" className="text-red-600 italic"></p>
         </form>
     )
 }
