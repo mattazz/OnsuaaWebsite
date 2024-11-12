@@ -57,7 +57,7 @@ function Navbar() {
                             animate="visible"
                             exit="exit"
                             variants={menuVariants}
-                            className={`flex flex-col lg:flex-row lg:items-center lg:space-x-4 w-full lg:w-auto ${isOpen ? 'no-pointer-events' : ''}`}
+                            className={`flex flex-col  lg:flex-row lg:items-center lg:space-x-4 w-full lg:w-auto ${isOpen ? 'no-pointer-events' : ''}`}
                             onClick={toggleDropdown}
                             onAnimationComplete={() => {
                                 // Remove pointer class
