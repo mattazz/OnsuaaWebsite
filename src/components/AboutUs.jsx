@@ -22,15 +22,27 @@ function AboutUs() {
                 <h2 className="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur.</h2>
             </div>
 
-
-            <div className="flex space-x-14 justify-center align-middle m-auto w-3/4 ">
-                <CircleImage src="https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg" width={128} height={128} />
-                <CircleImage src="https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg" width={128} height={128} />
-                <CircleImage src="https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg" width={128} height={128} />
-
-
+            <div className="flex flex-row testBorder p-5 m-5">
+                <div className="flex w-1/2 testBorder justify-center align-middle m-auto">
+                    <h1 className="text-3xl text-center">--IMG HERE--</h1>
+                </div>
+                <div className="testBorder w-1/2">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo alias, nihil voluptatem cupiditate, incidunt ipsum quaerat minima accusamus maxime ipsam asperiores eaque architecto et rem, nobis reprehenderit possimus repudiandae distinctio.</p>
+                </div>
+            </div>
+            <div className="flex flex-row testBorder p-5 m-5">
+                <div className="testBorder w-1/2">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo alias, nihil voluptatem cupiditate, incidunt ipsum quaerat minima accusamus maxime ipsam asperiores eaque architecto et rem, nobis reprehenderit possimus repudiandae distinctio.</p>
+                </div>
+                <div className="flex w-1/2 testBorder justify-center align-middle m-auto">
+                    <h1 className="text-3xl text-center">--IMG HERE--</h1>
+                </div>
             </div>
 
+            
+
+
+            
             <Footer />
         </motion.div>
         
