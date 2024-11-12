@@ -15,7 +15,7 @@ function ContactUs() {
             initial={{ opacity: 0, }}
             animate={{ opacity: 1,  }}
             transition={{ duration: 1 }}
-            className="flex flex-col space-y-7 lg:flex-row lg:space-x-8 p-20 border-2 h-screen">
+            className="flex flex-col space-y-7 lg:flex-row lg:space-x-8 p-20 h-screen">
             <div className="lg:w-1/2 flex flex-col justify-center h-full">
                 <h1 className="text-5xl mb-3">Let us know</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur labore illum soluta! In corrupti maxime nesciunt sunt eaque fuga quam voluptatum distinctio quidem doloribus mollitia autem numquam et, doloremque dolore?</p>
