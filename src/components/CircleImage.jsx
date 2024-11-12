@@ -2,7 +2,7 @@
 function CircleImage({src}){
     return(
         <img src={src}
-            className="rounded-full w-36 h-36 mx-auto" />
+            className="rounded-full w-36 h-36" />
     );
 }
 

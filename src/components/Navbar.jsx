@@ -7,6 +7,8 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleDropdown = () => {
+        console.log("Dropdown clicked");
+        
         setIsOpen(!isOpen);
     };
 
@@ -56,6 +58,7 @@ function Navbar() {
                             exit="exit"
                             variants={menuVariants}
                             className="flex flex-col lg:flex-row lg:items-center lg:space-x-4 w-full lg:w-auto"
+                            onClick={toggleDropdown}
                         >
                             <NavItemLink linkTo="/" linkText="Home" itemVariants={itemVariants} isOpen={isOpen} />
                             <NavItemLink linkTo="/about" linkText="About" itemVariants={itemVariants} isOpen={isOpen}/>
