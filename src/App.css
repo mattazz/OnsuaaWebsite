@@ -13,6 +13,12 @@ h1{
 .testBorder{
     @apply border-2 border-red-500 border-dashed;
 }
+.childTestBorder{
+    @apply border-2 border-green-500 border-dashed;
+}
+.childTestBorder > *{
+    @apply border-2 border-blue-500 border-dashed;
+}
 
 .no-pointer-events{
     pointer-events: none;

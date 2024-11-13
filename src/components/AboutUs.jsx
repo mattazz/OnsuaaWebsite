@@ -21,20 +21,22 @@ function AboutUs() {
                 <h2 className="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur.</h2>
             </div>
 
-            <div className="flex flex-row flex-wrap  p-5 m-5">
-                <div className="flex w-full sm:w-1/2 lg:w-1/3 justify-center align-middle m-auto ">
-                    <h1 className="text-3xl text-center ">--IMG HERE--</h1>
+            <div className="flex flex-row flex-wrap sm:p-0 sm:m-1  p-3 lg:my-5 gap-1 childTestBorder align-middle justify-center ">
+                <div className="flex w-full sm:w-full  lg:w-1/3 justify-center align-middle m-auto  ">
+                    <img src="https://widget.campusexplorer.com/media/original/media-50FF297D.jpg" alt="" />
                 </div>
-                <div className="flex w-full sm:w-1/2  lg:w-2/3 ">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo alias, nihil voluptatem cupiditate, incidunt ipsum quaerat minima accusamus maxime ipsam asperiores eaque architecto et rem, nobis reprehenderit possimus repudiandae distinctio.</p>
+                <div className="flex w-full sm:w-full sm:p-5  lg:w-1/2  ">
+                    <p className="flex justify-center align-middle m-auto"
+                    >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo alias, nihil voluptatem cupiditate, incidunt ipsum quaerat minima accusamus maxime ipsam asperiores eaque architecto et rem, nobis reprehenderit possimus repudiandae distinctio.</p>
                 </div>
             </div>
-            <div className="flex flex-row flex-wrap  p-5 m-5">
-                <div className="flex w-full sm:w-1/2  lg:w-2/3 ">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo alias, nihil voluptatem cupiditate, incidunt ipsum quaerat minima accusamus maxime ipsam asperiores eaque architecto et rem, nobis reprehenderit possimus repudiandae distinctio.</p>
+            <div className="flex flex-row flex-wrap sm:p-0 sm:m-1  p-3 lg:my-5 gap-1 childTestBorder align-middle justify-center ">
+                <div className="flex w-full sm:w-full sm:p-5  lg:w-1/2  ">
+                    <p className="flex justify-center align-middle m-auto"
+                    >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo alias, nihil voluptatem cupiditate, incidunt ipsum quaerat minima accusamus maxime ipsam asperiores eaque architecto et rem, nobis reprehenderit possimus repudiandae distinctio.</p>
                 </div>
-                <div className="flex w-full sm:w-1/2 lg:w-1/3 justify-center align-middle m-auto ">
-                    <h1 className="text-3xl text-center ">--IMG HERE--</h1>
+                <div className="flex w-full sm:w-full  lg:w-1/3 justify-center align-middle m-auto  ">
+                    <img src="https://widget.campusexplorer.com/media/original/media-50FF297D.jpg" alt="" />
                 </div>
             </div>
             <Footer />
