@@ -16,7 +16,7 @@ h1{
 .childTestBorder{
     @apply border-2 border-green-500 border-dashed;
 }
-.childTestBorder > *{
+.childTestBorder *{
     @apply border-2 border-blue-500 border-dashed;
 }
 

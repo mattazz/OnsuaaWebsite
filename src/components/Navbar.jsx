@@ -6,9 +6,7 @@ import NavItemLink from "./NavItemLink";
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
-    const toggleDropdown = () => {
-        console.log("Dropdown clicked");
-        
+    const toggleDropdown = () => {        
         setIsOpen(!isOpen);
     };
 
@@ -42,6 +40,7 @@ function Navbar() {
     return (
         <nav className="bg-red-700 p-4 text-white">
             <div className="mx-auto max-w-7xl px-2 sm:px-6 flex flex-col lg:flex-row justify-between items-center">
+                {/* Logo */}
                 <div className="flex justify-between w-full lg:w-auto">
                     <Link to="/" className="text-xl font-bold">ONSUAA LOGO</Link>
                     <button onClick={toggleDropdown} className="text-white focus:outline-none lg:hidden">
@@ -50,6 +49,8 @@ function Navbar() {
                         </svg>
                     </button>
                 </div>
+
+                {/* Mobile Menu */}
                 <AnimatePresence>
                     {isOpen && (
                         <motion.ul
@@ -78,8 +79,9 @@ function Navbar() {
                         </motion.ul>
                     )}
                 </AnimatePresence>
+                {/* Desktop Menu */}
                 {!isOpen && (
-                    <ul className="hidden lg:flex lg:items-center lg:space-x-4 w-full lg:w-full">
+                    <ul className="hidden lg:flex lg:items-center lg:space-x-4 w-full lg:w-full justify-end">
                         <NavItemLink linkTo="/" linkText="Home" />
                         <NavItemLink linkTo="/about" linkText="About" />
                         <NavItemLink linkTo="/bylaws" linkText="Bylaws" />

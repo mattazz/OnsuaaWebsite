@@ -1,6 +1,7 @@
 import CircleImageWithTextCard from './CircleImageTextCard';
 import Footer from './Footer';
 import ImageTextBlockL from './ImageTextBlockL';
+import ImageTextBlockR from './ImageTextBlockR';
 CircleImageWithTextCard
 function Home() {
     return (
@@ -29,11 +30,14 @@ function Home() {
                     </div>
                 </div>
             </div>
-
-            <ImageTextBlockL 
-            imgSrc={"https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg"}
-            text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur."}
-             />
+            <ImageTextBlockR
+                imgSrc="https://widget.campusexplorer.com/media/original/media-50FF297D.jpg"
+                text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur."
+            />     
+            <ImageTextBlockL
+                imgSrc="https://widget.campusexplorer.com/media/original/media-50FF297D.jpg"
+                text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur."
+            />
 
 
             <Footer />
