@@ -79,7 +79,7 @@ function Navbar() {
                     )}
                 </AnimatePresence>
                 {!isOpen && (
-                    <ul className="hidden lg:flex lg:items-center lg:space-x-4 w-full lg:w-auto">
+                    <ul className="hidden lg:flex lg:items-center lg:space-x-4 w-full lg:w-full">
                         <NavItemLink linkTo="/" linkText="Home" />
                         <NavItemLink linkTo="/about" linkText="About" />
                         <NavItemLink linkTo="/bylaws" linkText="Bylaws" />

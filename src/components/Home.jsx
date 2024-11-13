@@ -1,5 +1,6 @@
 import CircleImageWithTextCard from './CircleImageTextCard';
 import Footer from './Footer';
+import ImageTextBlockL from './ImageTextBlockL';
 CircleImageWithTextCard
 function Home() {
     return (
@@ -28,6 +29,12 @@ function Home() {
                     </div>
                 </div>
             </div>
+
+            <ImageTextBlockL 
+            imgSrc={"https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg"}
+            text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur."}
+             />
+
 
             <Footer />
         </>
