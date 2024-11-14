@@ -4,8 +4,10 @@ function Events() {
   return (
     <div>
       <h1>Events</h1>
-
-      <EventCard />
+      <div className="flex gap-10 p-3 ">
+        <EventCard />
+        <EventCard />
+      </div>
     </div>
   );
 }

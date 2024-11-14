@@ -25,6 +25,5 @@ h1{
 }
 
 .eventCardImg{
-    width: 100px;
-    height: 100px;
+    @apply w-full h-auto object-cover
 }
