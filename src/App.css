@@ -23,3 +23,8 @@ h1{
 .no-pointer-events{
     pointer-events: none;
 }
+
+.eventCardImg{
+    width: 100px;
+    height: 100px;
+}
