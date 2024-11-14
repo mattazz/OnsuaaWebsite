@@ -15,7 +15,9 @@ function EventCard({variants, title = "Title", date = "Date", description = "Des
         
         className="flex-col flex w-full sm:p-2 md:flex-row md:w-full md:p-0 lg:p-0 lg:w-full xl:w-[45%] rounded-md shadow-xl gap-2 p-0 ">
             <div className="w-full md:w-1/2 flex">
-                <img className="eventCardImg rounded-tl-md rounded-bl-md" src="https://www.crmsoftwareblog.com/wp-content/uploads/help-g2d0b94a79_1920.jpg" alt="" />
+                <motion.img 
+                whileHover={{ scale: 0.9, rotate: (Math.random() * 20 - 10), borderTopRightRadius: 10, borderBottomRightRadius: 10 }}
+                className="eventCardImg rounded-tl-md rounded-bl-md" src="https://www.crmsoftwareblog.com/wp-content/uploads/help-g2d0b94a79_1920.jpg" alt="" />
             </div>
             <div className="flex flex-col w-full p-2 md:w-1/2 pt-3 pb-3 pr-3">
                 <h1 className="text-xl font-bold">{title}</h1>

@@ -7,8 +7,8 @@ function Events() {
     hidden: {},
     visible: {
       transition: {
-        delayChildren: 0.3,
-        staggerChildren: 0.2
+        delayChildren: 0,
+        staggerChildren: 0.1
       }
     }
   }

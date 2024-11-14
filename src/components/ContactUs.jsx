@@ -17,8 +17,8 @@ function ContactUs() {
             initial={{ opacity: 0, }}
             animate={{ opacity: 1,  }}
             transition={{ duration: 1 }}
-            className="flex flex-col space-y-7 lg:flex-row lg:space-x-8 p-20 h-screen">
-            <div className="lg:w-1/2 flex flex-col justify-center h-full">
+            className="flex flex-col space-y-7 lg:flex-row md:flex-col lg:space-x-8 p-20 min-h-screen items-center ">
+            <div className="lg:w-1/2 md:items-center md:text-center flex flex-col justify-center h-full flex-grow">
                 <h1 className="text-5xl mb-3">Let us know</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur labore illum soluta! In corrupti maxime nesciunt sunt eaque fuga quam voluptatum distinctio quidem doloribus mollitia autem numquam et, doloremque dolore?</p>
                 <br />
@@ -44,7 +44,7 @@ function ContactUs() {
                     />
                 </div>
             </div>
-            <div className="lg:w-1/2 flex justify-center items-center h-full">
+            <div className="lg:w-1/2 md:w-full sm:w-full flex justify-center items-center h-full">
                 <ContactForm />
             </div>
         </motion.div>
