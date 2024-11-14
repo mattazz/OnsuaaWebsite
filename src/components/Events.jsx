@@ -20,7 +20,10 @@ function Events() {
 
   return (
     <>
-      <h1>Events</h1>
+      <div className="flex flex-col items-center my-4">
+        <h1 className="flex text-4xl">Events</h1>
+        <p className="flex">These are our events</p>
+      </div>
       <motion.div
         variants={containerVariants}
         initial="hidden"

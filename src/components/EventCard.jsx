@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import {motion} from 'framer-motion';
 
-function EventCard({variants}){
+function EventCard({variants, title = "Title", date = "Date", description = "Description"}) {
     const spring = {
         type: "spring",
         damping: 20,
@@ -17,10 +17,10 @@ function EventCard({variants}){
             <div className="w-full md:w-1/2 flex">
                 <img className="eventCardImg rounded-tl-md rounded-bl-md" src="https://www.crmsoftwareblog.com/wp-content/uploads/help-g2d0b94a79_1920.jpg" alt="" />
             </div>
-            <div className="flex flex-col w-full md:w-1/2 pt-3 pb-3 pr-3">
-                <h1 className="text-xl font-bold">Event Title</h1>
-                <p className="italic">Event date</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto magni error assumenda exercitationem, beatae minima enim incidunt rem nobis accusantium quod, reiciendis consectetur. </p>
+            <div className="flex flex-col w-full p-2 md:w-1/2 pt-3 pb-3 pr-3">
+                <h1 className="text-xl font-bold">{title}</h1>
+                <p className="italic">{date}</p>
+                <p>{description} </p>
             </div>
         </motion.div>
     )

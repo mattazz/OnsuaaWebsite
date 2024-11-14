@@ -69,6 +69,7 @@ function Navbar() {
                             <NavItemLink linkTo="/about" linkText="About" itemVariants={itemVariants} isOpen={isOpen}/>
                             <NavItemLink linkTo="/bylaws" linkText="Bylaws" itemVariants={itemVariants} isOpen={isOpen}/>
                             <NavItemLink linkTo="/officers" linkText="Officers" itemVariants={itemVariants} isOpen={isOpen}/>
+                            <NavItemLink linkTo="/events" linkText="Events" itemVariants={itemVariants} isOpen={isOpen}/>
                             <NavItemLink linkTo="/contact-us" linkText="Contact Us" itemVariants={itemVariants} isOpen={isOpen}/>
                             <motion.li
                                 variants={itemVariants}
@@ -86,8 +87,8 @@ function Navbar() {
                         <NavItemLink linkTo="/about" linkText="About" />
                         <NavItemLink linkTo="/bylaws" linkText="Bylaws" />
                         <NavItemLink linkTo="/officers" linkText="Officers" />
-                        <NavItemLink linkTo="/contact-us" linkText="Contact Us" />
                         <NavItemLink linkTo="/events" linkText="Events" />
+                        <NavItemLink linkTo="/contact-us" linkText="Contact Us" />
                         <li className="inline-block bg-blue-500 text-white rounded-full px-4 py-2 transition duration-300 ease-in-out transform hover:bg-blue-700 hover:text-white hover:scale-105 w-auto lg:w-auto sm:w-32">
                             <Link to="/donate" className="block text-center">Donate</Link>
                         </li>
