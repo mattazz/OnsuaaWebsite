@@ -1,5 +1,6 @@
 import EventCard from "./EventCard";
 import { motion } from 'framer-motion';
+import Footer from "./Footer";
 
 function Events() {
   const containerVariants = {
@@ -36,6 +37,7 @@ function Events() {
         <EventCard variants={itemVariants} />
         <EventCard variants={itemVariants} />
       </motion.div>
+      <Footer />
     </>
   );
 }

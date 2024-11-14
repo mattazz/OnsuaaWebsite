@@ -1,13 +1,16 @@
+import Footer from "./Footer";
 import UserCard from "./UserCard";
 import {motion} from "framer-motion";
 
 function Officers() {
     return (
+        <div className="flex flex-col min-h-screen">
         <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
             exit={{ opacity: 0 }}
+            className="flex-grow"
         >
         <div className="flex flex-col p-10 text-center">
             <h1 className="text-3xl">Meet the Officers</h1>
@@ -21,6 +24,8 @@ function Officers() {
                 <UserCard />
             </div>
         </motion.div>
+        <Footer />
+        </div>
     );
 }
 

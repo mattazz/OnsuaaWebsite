@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 // Icons
 import FBIcon from '../assets/FB_icon.webp';
 import ContactForm from "./ContactForm";
+import Footer from "./Footer";
 
 SocialIcon
 
@@ -11,6 +12,7 @@ function ContactUs() {
 
     
     return (
+        <>
         <motion.div
             initial={{ opacity: 0, }}
             animate={{ opacity: 1,  }}
@@ -23,7 +25,7 @@ function ContactUs() {
                 <p>Tel: 123-456-7890</p>
                 <p>Email: hello@onsuaa.com</p>
 
-                <p>Office: 48 Spayzac Rd, Pickering, Ontario</p>
+                <p>Office: 48 Stratlac Rd, Pickering, Ontario</p>
                 <div className="mt-4 flex gap-4">
                     <SocialIcon
                         link="https://www.facebook.com"
@@ -46,6 +48,8 @@ function ContactUs() {
                 <ContactForm />
             </div>
         </motion.div>
+        <Footer />
+        </>
     );
 }
 
