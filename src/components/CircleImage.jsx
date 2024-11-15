@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const CircleImage = ({ src, width = 128, height = 128 }) => {
     return (
-        <div className="flex lg:justify-start md:justify-center sm:justify-center justify-center ">
+        <div className="flex lg:justify-start md:justify-center sm:justify-center justify-center w-1/2 ">
             <img
                 src={src}
                 alt=""
