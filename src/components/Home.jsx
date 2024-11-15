@@ -11,7 +11,7 @@ function Home() {
                     <img src="https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg"
                         className="w-8/12 m-auto rounded-xl" />
                 </div>
-                <div className=' m-4 pt-5'>
+                <div className=' m-4 pt-5 '>
                     <h1 className='text-center text-4xl mb-4 '>This is what we do</h1>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 lg:mx-24 ">
                         <CircleImageWithTextCard
