@@ -1,8 +1,12 @@
 import Footer from "./Footer";
+import {motion} from 'framer-motion'
 
 function Bylaws(){
     return (
-        <div className="flex flex-col min-h-screen ">
+        <motion.div
+        initial = {{opacity: 0}}
+        animate = {{opacity: 1}}
+         className="flex flex-col min-h-screen ">
             <div className="flex-grow">
                 <div className="flex flex-col justify-center items-center w-2/3 gap-2 m-auto text-center py-5" >
                     <h1 className=" text-4xl text-red-600">ONSUAA Bylaws</h1>
@@ -10,7 +14,7 @@ function Bylaws(){
                 </div>
             </div>
             <Footer />
-        </div>
+        </motion.div>
     );
 }
 

@@ -6,7 +6,7 @@ import FBIcon from '../assets/FB_icon.webp';
 import ContactForm from "./ContactForm";
 import Footer from "./Footer";
 
-SocialIcon
+SocialIcon  
 
 function ContactUs() {
 

@@ -21,10 +21,13 @@ function Events() {
 
   return (
     <>
-      <div className="flex flex-col items-center my-4">
+      <motion.div 
+      initial = {{opacity: 0}}
+      animate = {{opacity: 1}}
+      className="flex flex-col items-center my-4">
         <h1 className="flex text-4xl">Events</h1>
         <p className="flex">These are our events</p>
-      </div>
+      </motion.div>
       <motion.div
         variants={containerVariants}
         initial="hidden"

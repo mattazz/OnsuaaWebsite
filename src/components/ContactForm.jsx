@@ -60,7 +60,7 @@ function ContactForm() {
                 onChange={handleChange}
                 className="p-2 border border-gray-300 rounded h-32"
             />
-            <button type="submit" className="p-2 bg-red-600 text-white rounded">E-Mail Us</button>
+            <button type="submit" className="p-2 bg-red-600 text-white rounded hover:bg-red-500 hover:scale-105 transition-all">E-Mail Us</button>
             <p id="noticeMessage" className="text-red-600 italic"></p>
         </form>
     )

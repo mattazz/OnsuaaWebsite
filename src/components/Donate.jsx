@@ -1,8 +1,12 @@
+import { motion } from 'framer-motion'
 function Donate() {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+    >
       <h1>Donate</h1>
-    </div>
+    </motion.div>
   );
 }
 
