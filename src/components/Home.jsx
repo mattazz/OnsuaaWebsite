@@ -30,14 +30,16 @@ function Home() {
                     </div>
                 </div>
             </div>
-            <ImageTextBlockR
-                imgSrc="https://widget.campusexplorer.com/media/original/media-50FF297D.jpg"
-                text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur."
-            />     
-            <ImageTextBlockL
-                imgSrc="https://widget.campusexplorer.com/media/original/media-50FF297D.jpg"
-                text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur."
-            />
+            <div className=' lg:mx-20'>
+                <ImageTextBlockR
+                    imgSrc="https://widget.campusexplorer.com/media/original/media-50FF297D.jpg"
+                    text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur."
+                />
+                <ImageTextBlockL
+                    imgSrc="https://widget.campusexplorer.com/media/original/media-50FF297D.jpg"
+                    text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur."
+                />
+            </div>
 
 
             <Footer />
