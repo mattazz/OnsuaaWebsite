@@ -44,7 +44,7 @@ function ContactUs() {
                     />
                 </div>
             </div>
-            <div className="lg:w-1/2 md:w-full sm:w-full flex justify-center items-center h-full">
+            <div className="lg:w-1/2 md:w-full sm:w-full w-full flex justify-center items-center h-full">
                 <ContactForm />
             </div>
         </motion.div>

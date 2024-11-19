@@ -23,14 +23,15 @@ function AboutUs() {
                 <h2 className="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur.</h2>
             </div>
 
-            <ImageTextBlockL 
-            imgSrc={"https://widget.campusexplorer.com/media/original/media-50FF297D.jpg"}
-            text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur."}
-            />
             <ImageTextBlockR
             imgSrc={"https://widget.campusexplorer.com/media/original/media-50FF297D.jpg"}
             text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur."}
             />
+            <ImageTextBlockL 
+            imgSrc={"https://widget.campusexplorer.com/media/original/media-50FF297D.jpg"}
+            text={"Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum aliquid fugit sed ipsa voluptatem ipsum vel vitae, expedita nam corrupti vero rerum amet minima dignissimos, veniam nobis aliquam nesciunt. Consequuntur."}
+            />
+            
             
             <Footer />
         </motion.div>
