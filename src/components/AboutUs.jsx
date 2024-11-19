@@ -13,7 +13,7 @@ function AboutUs() {
 
         >
             <div className="flex flex-col justify-center align-middle m-auto text-center my-20 w-1/2 gap-3">
-                <h2 className="text-red-400 font-bold"> Know Everything...About Us</h2>
+                <h2 className="text-red-600 font-bold"> Know Everything...About Us</h2>
                 <h1 className=" text-3xl">About ONSUAA</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos praesentium libero repellendus consequuntur commodi natus tempore earum esse nam iure nesciunt eaque autem illo error, nemo deserunt quis voluptate ducimus!</p>
             </div>
