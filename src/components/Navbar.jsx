@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import NavItemLink from "./NavItemLink";
 
+import onsuaaLogo from '../assets/onsuaa_logo.png'
+
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
@@ -42,7 +44,8 @@ function Navbar() {
             <div className="mx-auto max-w-7xl px-2 sm:px-6 flex flex-col lg:flex-row justify-between items-center">
                 {/* Logo */}
                 <div className="flex justify-between w-full lg:w-auto">
-                    <Link to="/" className="text-xl font-bold">ONSUAA LOGO</Link>
+                    <a href="/"><img className="w-auto h-16 object-contain " src={onsuaaLogo} alt="" /></a>
+                    {/* <img src="" alt="" srcset="" /> */}
                     <button onClick={toggleDropdown} className="text-white focus:outline-none lg:hidden">
                         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>

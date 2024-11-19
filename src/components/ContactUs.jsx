@@ -27,7 +27,7 @@ function ContactUs() {
 
                 <p>Office: 48 Stratlac Rd, Pickering, Ontario</p>
                 <div className="mt-4 flex gap-4">
-                    <SocialIcon
+            <SocialIcon
                         link="https://www.facebook.com"
                         imgPath={FBIcon}
                         alt="Facebook"
