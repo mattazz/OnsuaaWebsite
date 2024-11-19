@@ -13,7 +13,7 @@ function Home() {
                 </div>
                 <div className=' m-4 pt-5 '>
                     <h1 className='text-center text-4xl mb-4 '>This is what we do</h1>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 lg:mx-24 ">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-0 lg:mx-24 ">
                         <CircleImageWithTextCard
                             src={"https://onsuaa.wordpress.com/wp-content/uploads/2013/02/oathtaking.jpg"}
                             headerText={"We're efficient."}
